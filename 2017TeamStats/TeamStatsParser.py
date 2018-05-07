@@ -1,3 +1,8 @@
+'''
+File used to take text files gathered by copy/pasting from https://www.sports-reference.com/cfb/schools/team_name/2017/gamelog/
+and turn them into .csv files containing relevant headers and data for that team
+'''
+
 import re
 
 header_string = '''Game#,Date,Opp,P-Cmp,P-Att,P-Pct,P-Yds,P-TD,R-Att,R-Yds,R-Avg,R-TD,T-Plays,T-Yds,T-Avg,1D-P,1D-R,1D-Pen,1D-Tot,Pen-No,Pen-Yds,Fum,Int,TO-Tot,Loc,Team-Pts,Opp-Pts,DP-Cmp,DP-Att,DP-Yds,DP-TD,DR-Att,DR-Yds,DR-Avg,DR-TD,DT-Plays,DT-Yds,DT-Avg,D1D-P,D1D-R,D1D-Pen,D1D-Tot,DPen-No,DPen-Yds,DFum,DInt,DTO-Tot'''
